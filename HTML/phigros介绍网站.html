@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="../picture/icon/retry.png">
+    <link rel="stylesheet" type="text/css" href="../css/phigros_introduce.css">
+    <link rel="stylesheet" type="text/css" href="../css/bg_color.css">
+    <link rel="stylesheet" type="text/css" href="../css/phigros_shutters.css">
+</head>
+
+
+<body class="bd">
+
+    <div id="app">
+
+        <br><br><br>
+        <div class=index2 onclick="threeFn(this)">
+            <div :class='bgcolor' id="beginning_bg1" @mouseenter="bg_enter1" @mouseleave="bg_leave1" title="ジングルベル">
+                <a href="https://pigeon-games.com/home">phigr<big><ins>os</ins></big></a>
+            </div>
+            <div :class='bgcolor2' id="beginning_bg2" @mouseenter="bg_enter2" @mouseleave="bg_leave2" title="ジングルベル">
+                <a href="https://pigeon-games.com/home">phigr<big><ins>os</ins></big></a>
+            </div>
+            <div :class='bgcolor3' id="beginning_bg3" @mouseenter="bg_enter3" @mouseleave="bg_leave3" title="ジングルベル">
+                <a href="https://pigeon-games.com/home">phigr<big><ins>os</ins></big></a>
+            </div>
+            <div :class='bgcolor4' id="beginning_bg4" @mouseenter="bg_enter4" @mouseleave="bg_leave4" title="ジングルベル">
+                <a href="https://pigeon-games.com/home">phigr<big><ins>os</ins></big></a>
+            </div>
+            <div :class='bgcolor5' id="beginning_bg5" @mouseenter="bg_enter5" @mouseleave="bg_leave5" title="ジングルベル">
+                <a href="https://pigeon-games.com/home">phigr<big><ins>os</ins></big></a>
+            </div>
+        </div>
+        <div>
+            <ul class="ulpadding">
+                <!-- 百叶窗Pic1 -->
+                <li class="onePic">
+                    <div class="border" title="Igallta" style="float:right">
+                        <i>曲绘5</i>
+                    </div>
+                    <div class="border" title="Another Me" style="float:right">
+                        <i>曲绘4</i>
+                    </div>
+                    <div class="border" title="Spasmodic" style="float:right">
+                        <i>曲绘3</i>
+                    </div>
+                    <div class="border" title="SpasmodicChan(max)" style="float:right">
+                        <i>曲绘2</i>
+                    </div>
+                    <div class="border" title="life flashes before weeb eyes" style="float:right">
+                        <i>曲绘1</i>
+                    </div>
+                </li>
+                <!-- 百叶窗Pic2 -->
+                <li class="twoPic">
+                    <div class="border" title="ジングルベル" style="float:right">
+                        <i>曲绘5</i>
+                    </div>
+                    <div class="border" title="Another Me" style="float:right">
+                        <i>曲绘4</i>
+                    </div>
+                    <div class="border" title="Spasmodic" style="float:right">
+                        <i>曲绘3</i>
+                    </div>
+                    <div class="border" title="SpasmodicChan(max)" style="float:right">
+                        <i>曲绘2</i>
+                    </div>
+                    <div class="border" title="life flashes before weeb eyes" style="float:left">
+                        <i>曲绘1</i>
+                    </div>
+                </li>
+                <!-- 百叶窗Pic3 -->
+                <li class="threePic">
+                    <div class="border" title="Igallta" style="float:right">
+                        <i>曲绘5</i>
+                    </div>
+                    <div class="border" title="Another Me" style="float:right">
+                        <i>曲绘4</i>
+                    </div>
+                    <div class="border" title="Spasmodic" style="float:right">
+                        <i>曲绘3</i>
+                    </div>
+                    <div class="border" title="SpasmodicChan(max)" style="float:left">
+                        <i>曲绘2</i>
+                    </div>
+                    <div class="border" title="life flashes before weeb eyes" style="float:left">
+                        <i>曲绘1</i>
+                    </div>
+                </li>
+                <!-- 百叶窗Pic4 -->
+                <li class="fourPic">
+                    <div class="border" title="Igallta" style="float:right">
+                        <i>曲绘5</i>
+                    </div>
+                    <div class="border" title="Another Me" style="float:right">
+                        <i>曲绘4</i>
+                    </div>
+                    <div class="border" title="Spasmodic" style="float:left">
+                        <i>曲绘3</i>
+                    </div>
+                    <div class="border" title="SpasmodicChan(max)" style="float:left">
+                        <i>曲绘2</i>
+                    </div>
+                    <div class="border" title="life flashes before weeb eyes" style="float:left">
+                        <i>曲绘1</i>
+                    </div>
+                    <!-- 百叶窗Pic5 -->
+                <li class="fivePic">
+                    <div class="border" title="Igallta" style="float:right">
+                        <i>曲绘5</i>
+                    </div>
+                    <div class="border" title="Another Me" style="float:left">
+                        <i>曲绘4</i>
+                    </div>
+                    <div class="border" title="Spasmodic" style="float:left">
+                        <i>曲绘3</i>
+                    </div>
+                    <div class="border" title="SpasmodicChan(max)" style="float:left">
+                        <i>曲绘2</i>
+                    </div>
+                    <div class="border" title="life flashes before weeb eyes" style="float:left">
+                        <i>曲绘1</i>
+                    </div>
+                </li>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <details open class="detail1" title="简介,人物,难度等等">
+                <summary>phigros相关信息</summary>
+                <div class="page">
+                    <br>
+                    <details close style="text-indent:2em">
+                        <summary>phigros简介</summary>
+                        <h1>
+                            Phigros简介
+                        </h1>
+                        <img src="../picture/phigros/phigros_m/phigros_icon.png">
+                        <p>
+                            <strong>&emsp;&emsp;作为由初创通过bilibili视频网站发起的、由众多音乐游戏爱好者<del
+                                    style="color: rgba(105, 105, 105, 0.5);">沙雕和鸽子</del>组成的完全用爱发电的Pigeon
+                                Games项目组研发的音乐游戏, PigeonGames项目组向玩家承诺Phigros将完全免费。
+                                制作组的初衷是制作一款完全免费的、媲美商业音游品质的音游，
+                                希望新颖的游戏模式与关卡能让玩家感受到音游的魅力。
+                                <del style="color: rgba(105, 105, 105, 0.5);">但音游基础薄弱的玩家只会被初见杀虐到怀疑人生。</del><br><br>
+                                &emsp;&emsp;<big>Phigros最大的特点是加载界面左下角放飞自我的Tips</big><small>（但并非首创）</small>与可以任意
+                                调教平移、旋转、增加和消失的判定线，其中第二点是Phigros对音游萌新不太友好的最重要原因，
+                                但实际的判定区域为Note垂直于判定线但稍宽一点的从上到下的矩形区域。
+                                Phigros目前包含7个风格以电音为主的主线章节[1]、1个支线章节以及6个额外章节
+                                （ChapterEX）[2]，和一个单曲集。<br><br>
+                                &emsp;&emsp;<del
+                                    style="color: rgba(105, 105, 105, 0.5);">由于经费原因，Phigros没有在线服务器，故无联网功能（同时也无联网需求，可离线游玩）</del><br><br>
+                                &emsp;&emsp;在v2.0.0之后游戏内拥有了服务器，但仅作为支持防沉迷系统用，并无其他功能。</strong>
+                    </details>
+                </div>
+                <div class="page">
+                    <details close title="鸠和吉诺" style="text-indent:2em">
+                        <summary>人物</summary>
+                        <table border="1">
+                            <!-- <colgroup>
+                                <col span="1" style="background-color:rgb(138, 233, 245)">
+                                <col style="background-color:rgb(255, 255, 255)">
+                            </colgroup> -->
+
+                            <tr>
+                                <th>鸠（Geopelia）</th>
+                                <th>简介</th>
+                            </tr>
+                            <tr>
+                                <td><img src="../picture/phigros/phigros_m/Geopelia.png"></td>
+                                <td>
+                                    <p>
+                                        毕业学校:新郑州中级教育院<br><br>
+                                        年龄:16<br><br>
+                                        生日:9月6日<br><br>
+                                        爱好:吃东西<br><br>
+                                        职业:作曲家<br><br>
+                                        擅长的事情:作曲<br><br>
+                                        代表作:《Spasmodic》《光》<br><br>
+                                        不喜欢的事情:吃空投小饼干并加辣椒酱<br><br>
+                                        Pigeon Game一周年之际发布的概念角色。<br><br>
+                                        2020.4.26 20:00的人气曲排行直播中以Live2D形象出现。<br><br>
+                                        因为对摩托车声响用词奇怪而被Gino称作咕咕，起初很反对这个称呼，后来慢慢接受，甚至自称咕咕。
+                                        出道曲《光》霸占havenboard单曲榜首位十六周，现今依旧活跃在各大音乐平台上。<br><br>
+                                        前冰封巡逻队第七小队队员。“巴别”“虹再现”事件的幸存者。<br><br>
+                                        据本人爆料，曾在中之层第79届糯米丸子挑战赛获胜，以309个糯米丸子打破了前任冠军的最高纪录。<br><br>
+
+                                    </p>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <th>Gino（吉诺）</th>
+                                <th>简介</th>
+                            </tr>
+                            <tr>
+                                <td><img src="../picture/phigros/phigros_m/Gino.png"></td>
+                                <td>
+                                    <p>
+                                        生日:未知<br><br>
+                                        爱好:一个人行动<br><br>
+                                        擅长的事情:吹奏梆笛，烹饪<br><br>
+                                        职业:警长/林泊百科管理员<br><br>
+                                        Pigeon Game一周年之际发布的概念角色。<br><br>
+                                        前冰封巡逻队第七小队队员。<br><br>
+                                        现任新郑州警局警长和林泊百科管理员<br><br>
+                                        古乐器梆笛继承人，且曾经是流浪乐人。<br><br>
+                                    </p>
+                                </td>
+                            </tr>
+
+
+                        </table>
+
+                    </details>
+                </div>
+                <div class="page">
+                    <details close style="text-indent:2em">
+                        <summary>谱面难度</summary>
+                        <h1>
+                            谱面难度
+                        </h1>
+                        <p>
+                            &emsp;&emsp;游戏中有<span class="EZ">EZ（Easy）</span>、<span
+                                style="color: #049df5;">HD（Hard）</span>、<span
+                                class="IN">IN（Insane）</span>（每一曲均具有这三种谱面）和特殊的<strong>AT（Another）</strong>（目前有9首歌具有<strong>AT</strong>难度谱面并可游玩）与<strong>Legacy</strong>（目前均是是被替换的旧<span
+                                class="IN">IN</span>谱面，目前有26首歌具有）五个难度可选，其中<span class="EZ">EZ（Easy）</span>难度等级为1-7，<span
+                                class="HD">HD</span>难度等级为3-12，<span
+                                class="IN">IN</span>难度等级为6-15，<b>AT</b>难度等级为13-16，<b>Legacy</b>难度等级为11-15。<br><br>
+
+                            &emsp;&emsp;需要通过达成该曲目上一难度<span class="S">S</span>（及以上）评价或上一曲目相同难度<span
+                                class="A">A</span>（及以上）评价解锁下一难度。<br><br>
+                            &emsp;&emsp;<b>Legacy</b>谱面需要完整通关一遍游戏最新的主线章节并看到制作人员名单（Credits）后才会解锁。<br><br>
+                            &emsp;&emsp;2.0.0版本更新以后可以打开未解锁曲目的<b>Legacy</b>谱面，此时会出现加载页面还是未解锁图标并覆盖难度的<del>一边上锁一边加载的屑</del>画面。<br><br>
+
+                        </p>
+                        <img src="../picture/phigros/phigros_m/LLod.jpg" height="360">
+                        <p>
+                            &emsp;&emsp;SP(Special)为独立于以上五个难度的特殊难度（即里谱），目前游戏中存在过的8张SP谱面已经全部被移除。
+                        </p><br><br>
+                        <img src="../picture/phigros/phigros_p/SpasmodicChan(max).png" height="360">
+                    </details>
+                </div>
+                <div class="page">
+                    <details close style="text-indent:2em">
+                        <summary>音符和轨道</summary>
+
+                        <h>Phigros中包含的音符有四种</h>
+
+                        <p class="page">
+                            &emsp;&emsp;<span title="Tap" class="Tap">Tap</span>:当音符到达判定线时单击即可。<br>&emsp;&emsp;<span
+                                title="Hold"
+                                class="Hold">Hold</span>:当音符到达判定线时点击并按住直到音符结束。音符结束时计1Combo。<br>&emsp;&emsp;<span
+                                title="Flick"
+                                class="Flick">Flick</span>:当音符到达判定线时从音符位置向<b>任意方向滑动</b>。判定只有Perfect和Miss，只要划到就算Perfect。<br>&emsp;&emsp;<span
+                                class="Drag">Drag</span>:当音符到达判定线时按住即可。判定也只有Perfect和Miss,只要碰到就算Perfect。<br><br>&emsp;&emsp;
+
+                            由于判定线可以<span
+                                style="color:#FF6347;">任意平移、旋转、增加或消失</span>，<b>游戏中Note的有效判定空间为Note与判定线垂直但宽度稍宽一点的整个区域。</b><br>
+                            实际上<span class="Hold">Hold</span>可以松开很短时间。并且，由于<span title="Hold"
+                                class="Hold">Hold</span>无尾判，因此可以在<span title="Hold"
+                                class="Hold">Hold</span>快结束时就松开。<br><br>&emsp;&emsp;
+                            于<b>读谱时间、音符特效等多种因素</b>，Phigros无法调节音符下落速度。<br>
+                        </p>
+
+
+
+                    </details>
+                </div>
+                <div class="page">
+                    <details close style="text-indent:2em">
+                        <summary>判定</summary>
+                        <p>
+
+                            <b><span class="Perfect">Perfect</span></b>精准击中。判定时间为±80ms，赋分为100%<br><br>
+                            <b><span class="Good">Good</span></b>:有击中偏差。判定时间为±80~160ms，赋分为65%<br><br>
+                            <b><span class="Bad">Bad</span></b>:过早击中或过晚击中，不赋分，同时连击数归零。<br><br>
+                            <b>Miss</b>:未击中，不赋分，同时连击数归零。<br><br>
+                            2.0.0更新后的课题模式中，<b><span class="Perfect">Perfect</span></b>判定范围为0ms～±40ms，<b><span
+                                    class="Good">Good</span></b>判定范围为±40ms～±75ms。<br><br>
+                        </p>
+                    </details>
+                </div>
+                <div>
+                    <details close style="text-indent:2em" class="page">
+                        <summary>评级</summary>
+                        <p>
+                            <b>&emsp;&emsp;<span class="φ">φ（Phi）</span></b>:1000000分<br>
+                            <b>&emsp;&emsp;<span class="V">V</span></b>:960000~999999分<sup
+                                style="display:inline;color:rgb(0, 195, 255);"
+                                title="如果取得全连，无论分数高低，也可以获得V评级，且显示为蓝色字母V（全连False在2.0版本已成为历史）但事实上即使取得蓝V仍然需要将分数达到88W以上才能获得data">[注]</sup><br>
+                            <b>&emsp;&emsp;<span class="S">S</span></b>:920000~959999分<br>
+                            <b>&emsp;&emsp;<span class="A">A</span></b>:880000~919999分<br>
+                            <b>&emsp;&emsp;<span class="B">B</span></b>:820000~879999分<br>
+                            <b>&emsp;&emsp;<span class="C">C</span></b>:700000~819999分<br>
+                            <b>&emsp;&emsp;False</b>:1~699999分<br><br>
+                            <b>&emsp;&emsp;2.0.0版本更新后，S、A、B、C和未FC时的V评级都显示为白色，False显示为淡灰色的F，0分则没有评级字母出现。</b>
+
+                        </p>
+                    </details>
+                </div>
+                <div class="index_mix page">
+                    <details clost style="text-indent:2em">
+                        <summary>Ranking Score</summary>
+                        <p>
+                            &emsp;&emsp;简称rks<del>热开水</del>，用于量化玩家游玩能力，与Arcaea的<span title="PPT">Potential</span>系统<sup
+                                title="事实上通过解包可看到Arc的PTT相关贴图文件名为rating"><span class="注">[注]</span></sup>、Orzmic以及<a
+                                title="Cytoid" href="Cytoid.html"
+                                style="color: #00BFFF;">Cytoid</a>的RATING和CHUNITHM的Ranking等类似。<br><br>
+                            &emsp;&emsp;单曲rks算法为:若ACC&lt;70%，则rks为0；若ACC≥70%，则rks=((100*ACC-55)/45)^2*该谱面的定数。<br><br>
+                            &emsp;&emsp;RankingScore的理论最高值为16.03（截止于v2.1.0），即以<span
+                                class="φ">φ（Phi）</span>级完成定数表前19首谱面。<br><br>
+                            &emsp;&emsp;目前rks机制为“（b19+最高收歌定数）/20”:<br>
+                            &emsp;&emsp;统计最佳单曲rks（Best）与最高收歌定数（仅定数）<br>
+                            &emsp;&emsp;即“单曲rks前19 累加 然后加上 最高收歌定数 再除以20”即为个人rks。<br><br>
+                            &emsp;&emsp;截止2.1.0为止，单曲定数最高的19个谱面（包含同定数实际为22个谱面）:<br>
+
+                        </p>
+                        <details clost style="text-indent:4em">
+                            <summary>展开</summary>
+                            <table border="1">
+                                <tr>
+                                    <td>
+                                        曲目
+                                    </td>
+                                    <td>
+                                        难度
+                                    </td>
+                                    <td>
+                                        谱面定数
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Rrhar'il</p>
+                                    </td>
+                                    <td>
+                                        <p>AT</p>
+                                    </td>
+                                    <td>
+                                        <p>16.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Igallta</p>
+                                    </td>
+                                    <td>
+                                        <p>AT</p>
+                                    </td>
+                                    <td>
+                                        <p>16.7</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Spasmodic</p>
+                                    </td>
+                                    <td>
+                                        <p>AT</p>
+                                    </td>
+                                    <td>
+                                        <p>16.4</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Lyrith -迷宮リリス-</p>
+                                    </td>
+                                    <td>
+                                        <p>AT</p>
+                                    </td>
+                                    <td>
+                                        <p>16.3</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>volcanic</p>
+                                    </td>
+                                    <td>
+                                        <p>AT</p>
+                                    </td>
+                                    <td>
+                                        <p>16.3</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>狂喜蘭舞</p>
+                                    </td>
+                                    <td>
+                                        <p>AT</p>
+                                    </td>
+                                    <td>
+                                        <p>16.1</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Chronos Collapse - La Campanella</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.9</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Chronos Collapse - La Campanella</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.9</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Chronostasis</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.9</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>CROSS†SOUL</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.9</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Cthugha</p>
+                                    </td>
+                                    <td>
+                                        <p>AT</p>
+                                    </td>
+                                    <td>
+                                        <p>15.9</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Lyrith -迷宮リリス-</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.9</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>GOODRAGE</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Non-Melodic Ragez</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>RESSiSTANCE</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Cthugha</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.8</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Palescreen</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.7</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Rrhar'il</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.7</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>望影の方舟Six</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.7</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Aleph-0</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.6</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Don't Never Around</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.6</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Igallta</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.6</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>SIGMA</p>
+                                    </td>
+                                    <td>
+                                        <p>IN</p>
+                                    </td>
+                                    <td>
+                                        <p>15.6</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </details>
+                        <p>&emsp;&emsp;由于四舍五入机制，不需要将全部谱面达成φ也能达到最高rks<br>
+                            &emsp;&emsp;游戏内SP谱面并没有实际难度定数，所以其单曲rks统一为0。<br></p>
+                    </details>
+                </div>
+                <div class="page">
+                    <details close style="text-indent:2em">
+                        <summary>名片</summary>
+                        <p>
+                            该功能用于显示用户信息，可从设置界面进入。<br><br>
+                            该功能可以让玩家自定义名称、头像、个人背景（点击界面右上角的按钮即可进入修改）和个人简介。
+                        </p>
+                        <a href="../picture/phigros/phigros_m/business_card.jpg">
+                            <img src="../picture/phigros/phigros_m/business_card.jpg" width="800px"
+                                title="作者的名片(2022.1.16)">
+                        </a>
+                    </details>
+
+                </div>
+                <div class="page" style="text-indent:2em">
+                    <details close>
+                        <summary>收藏品</summary>
+                        <p>
+                            于1.3.0版本追加。<br><br>
+
+                            Phigros的剧情部分，目前有九个章节，其中Chapter EX包含19个收藏品，Chapter 1包含54个收藏品，Chapter
+                            2包含37个收藏品，Chapter6包含3个收藏品，用于提示玩家如何解锁主线章节Chapter 6的魔王曲《Igallta》，Chapter 7包含2个收藏品，Side
+                            story1包含44个收藏品，而Chapter3、4、5暂时没有任何收藏品。<br><br>
+                            收藏品可通过打歌获得。<br><br>
+                            从2.0.0版本开始，在第一次浏览一个收藏品时可获得1.5MB的奖励(1.4.3后，2.0.0前为512KB)，一个收藏品中由若干线索组成，如果收集到两条线索，先后两次浏览则可获得2次1.5MB的奖励,但是一次同时浏览则只会获得1次1.5MB的奖励，直到2.0.0也没解决，及时浏览就不亏。<br>
+                            2.0.0版本出现了一些神秘的问题，导致Chapter 6的3个收藏品极其难以获取，以至于玩家无法通过收藏品得知解锁Igallta的方法。<br>
+                            2.1.0版本后，Chapter 6的3个收藏品和Chapter
+                            7的2个收藏品都可以轻易获得。但是这些收藏品有概率会在解锁隐藏曲后获得，所以等于没用（但听说只要评级是B或C就可以拿到了）<br>
+                            <sup style="color: #FF6347;">收藏品详见<a style="color: #00BFFF;"
+                                    href="woring.html">Phigros/收藏一览。</a></sup>
+                        </p>
+                    </details>
+                </div>
+                <div class="page">
+                    <details close title="商店" style="text-indent:2em">
+                        <summary>商店</summary>
+                        <p>
+                            &emsp;&emsp;于1.2.1版本追加，2.0.0版本已移除。<br>
+                            &emsp;&emsp;&emsp;&emsp;含购买歌曲，购买头像，购买背景，抽奖四个部分。<br>
+                            &emsp;&emsp;2.0.0更新后，购买歌曲转至在单曲集购买，背景，头像现仅能打歌获取，抽奖随商店一并移除。<br><br>
+                        </p>
+                        <details close title="货币" style="text-indent:4em" class="page">
+                            <summary>货币</summary>
+                            <p>
+                                Phigros的货币名称为Data。游玩歌曲结算在880000分（A评级）以上可以获得Data，Data获得量与谱面难度和游玩分数有关。<br><br>
+                                当游玩歌曲结算达到满分时将获得游玩当前谱面所能够获得的最大Data量，其与谱面难度的关系为（2.0.0前的数据）:<br>
+                                <b title="货币">
+                                    &emsp;&emsp;Lv.1-6难度All PERFECT（Phi）即可获得128KB Data<br>
+                                    &emsp;&emsp;Lv.7-9难度All PERFECT（Phi）即可获得256KB Data<br>
+                                    &emsp;&emsp;Lv.10-12难度All PERFECT（Phi）即可获得384KB Data<br>
+                                    &emsp;&emsp;Lv.13及以上难度All PERFECT（Phi）时获得的Data量逐级增加32KB，即Lv.13难度可获得416KB
+                                    Data，Lv.14难度可获得448KB
+                                    Data，Lv.15难度可获得480KB Data，Lv.16难度可获得512KB Data，以此类推。<br><br>
+                                    <!-- </b> -->
+                                    <sup
+                                        style="color: tomato;">2.0.0版本更新后，由于歌曲购买价格升高，游玩歌曲的基础的Data获取数量有所增加。</sup><br><br>
+                                    <!-- <b> -->
+                                    &emsp;&emsp;Data获得量与游玩分数的关系为:Data获得量 = ( (10/3) * (游玩分数/1000000) - (7/3) ) *
+                                    满分时Data获得量
+                                    ，向下取整。<br>
+                                    &emsp;&emsp;由于游戏内SP谱面并没有实际难度等级，所以获得的Data按Lv.1-6难度计算。<br>
+                                    &emsp;&emsp;新手引导（Introduction，EZ
+                                    Lv.2）最大可以获得32.125MB（即上文提到的128KB（0.125MB）+32MB）<br><br>
+                                    &emsp;&emsp;进制:1024KB=1MB，1024MB=1GB，以此类推。<br>
+                                    &emsp;&emsp;Data在2.0.0后仅可用于在单曲集中购买歌曲。
+                                </b>
+                            </p>
+                            <img src="../picture/phigros/phigros_m/data.png" title="data" width="100px">
+                        </details>
+                        <details close title="订单" style="text-indent:4em">
+                            <summary>订单</summary>
+                            <p>
+                                <b><sup style="color: tomato;">此内容在2.0.0更新后随商店的取消而一并取消。</sup></b><br>
+                                2.0.0更新以前，购买歌曲的总价为购买价格+服务费。<br><br>
+
+                                购买时间显示为玩家系统时间+72年。<br>
+                                服务费是给鸽子店员的小费，rks越高，服务费越低，其在rks超过10.25时开始降低。初始服务费为512KB，最低服务费为8KB。
+                                购买歌曲<br>
+                                商店新增曲目时，会开通新曲整体购买的限时优惠（优惠力度为75%，即仅需花费原价的25%），只有当前版本新增单曲享受优惠政策，仅在1.4.3版本更新时全曲半价可享受优惠。<br><br>
+
+                                2.0.0后，所有新曲价格均改为16MB。商店系统删除后，所有歌曲均需要直接在单曲精选集中购买。<br>
+                                2.0.0更新前的各曲包的原价与优惠价格:<br>
+                                <a title="作者懒">略</a>
+                            </p>
+
+
+                        </details>
+                        <details close title="订单" style="text-indent:4em">
+                            <summary>抽奖</summary>
+                            <p>
+                                <big style="color: #FF6347;">&emsp;&emsp;此内容在2.0.0更新后随商店的取消而一并取消。</big><br>
+                                &emsp;&emsp;于1.3.0版本追加，与Cytus II的“CAPSO!”系统类似。<br>
+                                &emsp;&emsp;可以用1024KB/8MB
+                                Data进行普通/十连抽奖。可以抽到Avatar（头像）、Illustration（背景）、Collection（收藏品）、Data和Null（无）。
+                            </p>
+
+                        </details>
+                        <details clost style="text-indent:4em">
+                            <summary>课题模式</summary>
+                            <p>
+                                &emsp;&emsp;2.0.0更新后追加课题模式。课题模式可以在2.0.0版本之前解锁Igallta后通过更新新版本自动解锁，或在任意难度下打完2.0.0最终魔王曲Rrhar'il出现致谢名单后解锁，之后可在单曲集左边的Phigros中进入课题模式。<br><br>
+                                &emsp;&emsp;在课题模式中，玩家需要自行选择三张<span
+                                    class="EZ">EZ</span>-<b>AT</b>难度的谱面进行挑战（可相同曲目，不可相同谱面）三首歌需要同时结算且不能中途退出。<br><br>
+                                &emsp;&emsp;课题模式采用更严的判定，<b class="Perfect">Perfect</b>判定范围为0ms～±40ms，<span
+                                    class="Good">Good</span>判定范围为±40ms～±75ms。<br><br>
+                                &emsp;&emsp;课题模式没有连击分，满分仍为100w，所以分数即为acc数值。<br><br>
+                                &emsp;&emsp;由于课题模式独特的判定和结算机制，所有单曲游玩成绩将不被记录（<b
+                                    class="φ">φ</b>了也不行），也不能用于解锁游玩曲的更高难度。<del>然而可以用来触发异象解锁隐藏曲以及Chronostasis的<b>AT</b>难度</del><br><br>
+                                &emsp;&emsp;三首课题游玩结束后，会根据游玩谱面等级和成绩之和给出一个综合评价（玩家群体中或称为“段位”）<br><br>
+                                &emsp;&emsp;评价中间的数字代表三首课题曲的等级之和，外框的颜色随分数而变化。<br><br>
+                                框的颜色所对应的分数区间如下:<br>
+                                &emsp;&emsp;&emsp;彩:3000000（三首全<b class="φ">AP</b>）<br>
+                                &emsp;&emsp;&emsp;金:2940000~2999999<br>
+                                &emsp;&emsp;&emsp;橙:2850000~2939999<br>
+                                &emsp;&emsp;&emsp;蓝:2700000~2849999<br>
+                                &emsp;&emsp;&emsp;绿:2460000~2699999<br>
+                                &emsp;&emsp;&emsp;<b style="color: #FF6347;">注意:低于2460000分不会给予评价</b>。<br>
+                                &emsp;&emsp;给出游玩评价后，可以自由选择放弃该评级，保留旧评级或接受该评级，覆盖原有的评级。
+                            </p>
+
+                        </details>
+                    </details>
+                </div>
+                <details open style="text-indent:2em" class="page">
+                    <summary>Tip</summary>
+                    <p>
+                        &emsp;&emsp;在加载界面的左下角随机出现<del>，从2.0.0版本开始，在加载歌曲时左下角也会出现Tips，不知为何在2.0.1版本取消了该特性之后，在2.1.0版本又加回来了。</del>
+                    </p>
+                    <details open style="text-indent:4em" class="page2">
+                        <summary>2.0前</summary>
+
+                        <ol class="li" style="margin: 0%;">
+
+                            <p>提示</p><br><br><br>
+                            <li>戴上耳机以获取最佳体验</li>
+                            <li>总觉得对不上节奏？试试在设置中调整偏移吧!</li>
+                            <li>背景太亮影响发挥？试试在设置中调整背景亮度!</li>
+                            <li>屏幕被弹出消息挡住影响游戏？请退出游戏打开手机设置关掉消息弹窗哦!</li>
+                            <li>开启多押提示可以更好地帮助你找准歌曲节奏</li>
+                            <li>为防误触，暂停键需要点两次才可以暂停。</li>
+                            <li>-为什么有些难度没有解锁啊!-因为你的前一难度的成绩还没达到S哦，请多多努力吧!<sup class="注" title="上一关的该难度达到A也可以解锁">[注]</sup>
+                            </li>
+                            <li>请勿大力敲打游戏设备!敲坏了就没有phigros玩了!</li>
+                            <li>适当的适用器具（例如槌子）可以增加收歌的爽感哦!（请注意设备的寿命，损坏不负赔偿责任）</li>
+                            <li>如果上面有动画在动，代表你的手机很正常</li>
+                            <li>如何提升自己的技术，根据所有大佬的建（fu）议（du）…多练</li>
+                            <li>判定线失踪，note不出现等状况都不是bug，只是一个surprise</li>
+                            <li>上下滑动可以切换歌曲，点击曲绘可以开始游戏，左下的难度指示器点击对应难度即可切换难度....已经是老生常谈了吧？<small><sup class="注"
+                                        title="1.4.3后点击曲绘不能再开始游戏。">[注]</sup></small></li>
+                            <li>有时判定线也会提示你音符接下来会下落的位置，注意观察吧!</li>
+                        </ol><br><br>
+                        <p>江源速报</p><br><br>
+                        <ol class="li" style="margin: 0%;">
+                            <li>像素塔真的存在吗。</il>
+                            <li>江源速报:拟态系统PhigrOS，将于8月31号正式上线</li>
+                            <li>江源速报:PhigrOS内测开放新节点，完全复原冰封后地表实录</li>
+                            <li>江源速报:PHI集团负责人失踪三日，警方仍在调查中</li>
+                            <li>江源速报:PHI集团负责人回归，自杀传言不攻而破</li>
+                            <li>江源速报:名人自杀现象异常扩散，知名作家留下诡异遗书</li>
+                            <li>江源速报:三大基地全面开放通行，冰封纪元即将结束？</li>
+                            <li>江源速报:专家呼吁复兴AI产业，以应对过低劳动力紧缺问题</li>
+                            <li>江源速报:多地出现无故昏厥人员，卫生部呼吁民众健康饮食</li>
+                            <li>江源速报:政府出台就业新策，望促进失业人员再就业</li>
+                            <li>江源速报:知名歌手何琼语于昨夜凌晨意外死亡，凶手仍在追查中</li>
+                            <li>江源速报:警方发表惊人结果，何琼语原系自杀身亡</li>
+                            <li>江源速报:天后横死案新进展，凶手恐为桥民流浪汉</il>
+                            <li>江源速报:全球年均温再度上升，重返地表签名破千万</li>
+                            <li>江源速报:群体性臆症爆发，多人自称蜂巢C区存在巨塔</li>
+                            <li>江源速报:巨塔效应急剧化，神秘群体林泊浮出水面</li>
+                            <li>江源速报:上半年人口增长率再创新低，新型受精技术受挫，低欲望社会根源何为</li>
+                        </ol><br>
+                        <p>咕!咕!咕!</p>
+                        <ol>
+
+
+
+                            咕→咕↗咕↘咕↑￣￣￣￣[tips 3]
+                            不出意外的话今天的各位也在咕咕咕呢
+                            咕咕喵？[tips 4]
+                            咕？我在~
+                            咕咕咕，曲项向天鸽
+                            为了能做到完美的咕咕咕，我们每天都有在努力!
+                            get phigros bugugued（[tips 6]
+                            当你以为我们咕了的时候，我们咕了。这也是一种不咕
+                            我们的口号是？咕咕咕!
+                            大家好我们是布谷鸟
+                            我不做鸽啦!gugu![tips 5]
+                            gugugugle translation（
+                            当你以为我以为你以为我鸽了的时候我没有鸽，亦是一种鸽而觉得我不会鸽，而我鸽了，这亦是一种鸽
+                            石岐乳鸽绝赞，吸溜
+                            希望在有生之年可以看到鸽子元x
+                            烤鸽子，炖鸽子，蒸鸽子
+                            好!很多鸽子![tips 8]
+                            恭喜您再次收鸽了……您的鸽子把房子撑爆了!
+                            道理我都懂，但这只鸽子为什么那么大？!
+                            这鸽子，不要也罢![tips 7]
+                            奇怪的小鸽子增加了![tips 9]
+                            鸽肉可健脑补神提高记忆力，降低血压，养颜美容，延年益寿
+                            咕咕咕咕？咕咕咕咕咕咕!咕咕咕咕咕咕咕？？？咕咕咕!（咕咕咕咕咕咕咕咕咕
+                        </ol>
+                        <code><a></a></code>
+
+
+                    </details>
+                </details>
+
+            </details>
+
+        </div>
+        <div class="index">
+            <a href="phigros介绍网站.html">
+                <img src="../picture/phigros/phigros_m/bb.png" width="244" height="72.75px">
+            </a>
+        </div>
+    </div>
+
+</body>
+<script src="../JavaScript/jquery-2.1.4.min.js"></script>
+<script src="../JavaScript/vue.js"></script>
+
+
+<script type="text/javascript">
+    function threeFn(x) {
+        // alert("ohhh,man");
+        x.style.display = "none"
+    }
+
+
+
+    // jQuery
+
+
+    // $(".bg").hover(function () {
+    //     $(".bg").css("background", "skyblue");
+
+    // }, function () {
+    //     $(".bg").css("background", "url('../picture/images/1.png')");
+    //     $(".bg").css("backgroundSize", "cover");
+    // });
+
+
+    //js
+
+
+    // function over(x) {
+    //     x.style.background = "skyblue";
+    // }
+    // function leave(x) {
+    //     x.style.background = "url('../picture/images/1.png')";
+    //     x.style.backgroundSize = "cover";
+    // }
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            bgcolor: 'hand bg',
+            bgcolor2: 'hand bg2',
+            bgcolor3: 'hand bg3',
+            bgcolor4: 'hand bg4',
+            bgcolor5: 'hand bg5',
+
+        },
+        methods: {
+            //bg1
+            bg_enter1: function () {
+                this.bgcolor = 'hand bg_1';
+            },
+            bg_leave1: function () {
+                this.bgcolor = 'hand bg';
+
+
+            },
+
+            //2
+            bg_enter2: function () {
+                this.bgcolor2 = 'hand bg2_1';
+            },
+            bg_leave2: function () {
+                this.bgcolor2 = 'hand bg2';
+            },
+
+            //3
+            bg_enter3: function () {
+                this.bgcolor3 = 'hand bg3_1';
+            },
+            bg_leave3: function () {
+                this.bgcolor3 = 'hand bg3';
+            },
+
+            //4
+            bg_enter4: function () {
+                this.bgcolor4 = 'hand bg4_1';
+            },
+            bg_leave4: function () {
+                this.bgcolor4 = 'hand bg4';
+            },
+
+            //5
+            bg_enter5: function () {
+                this.bgcolor5 = 'hand bg5_1';
+            },
+            bg_leave5: function () {
+                this.bgcolor5 = 'hand bg5';
+            },
+        }
+    })
+</script>
+
+</html>

@@ -1,0 +1,31 @@
+.onePic{
+    background: url("../picture/phigros/phigros_p/1.png");
+    background-size: cover;
+    height: 760px;
+    /* display: none; */
+
+}
+.twoPic{
+    background: url("../picture/phigros/phigros_p/2.png");
+    background-size: cover;
+    height: 760px;
+
+}
+.threePic{
+    background: url("../picture/phigros/phigros_p/3.png");
+    background-size: cover;
+    height: 760px;
+    
+}
+.fourPic{
+    background: url("../picture/phigros/phigros_p/4.png");
+    background-size: cover;
+    height: 760px;
+    
+}
+.fivePic{
+    background: url("../picture/phigros/phigros_p/5.png");
+    background-size: cover;
+    height: 760px;
+    
+}

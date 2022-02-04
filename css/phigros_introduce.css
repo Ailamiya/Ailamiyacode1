@@ -1,0 +1,282 @@
+.color {
+    color: #24242549
+}
+
+del {
+    color: rgba(169, 169, 169, 0.644);
+}
+
+.index {
+    position: fixed;
+    height: 72.75px;
+    background-color: rgb(63, 60, 60);
+    width: 100%;
+    top:0px;
+
+}
+
+.index a {
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 25px;
+    left: 80%;
+    height: 36.375px;
+}
+
+.index_mix {
+    display: flex;
+}
+
+.index2 {
+    display: flex;
+    height: 650px;
+    /* background-color: skyblue; */
+
+
+}
+
+
+
+
+
+.hand {
+    flex: 1;
+    border-right: 2px solid rgb(255, 255, 255);
+    padding-top: 350px;
+}
+
+.hand a {
+    color: rgba(45, 148, 245, 0.733);
+    font-size: 50px;
+    margin: 28px;
+    text-decoration: none;
+}
+
+.bg {
+    background: url("../picture/phigros/phigros_s/1.png");
+    background-size: cover;
+}
+
+.bg2 {
+    background: url("../picture/phigros/phigros_s/2.png");
+    background-size: cover;
+}
+
+.bg3 {
+    background: url("../picture/phigros/phigros_s/3.png");
+    background-size: cover;
+}
+
+.bg4 {
+    background: url("../picture/phigros/phigros_s/4.png");
+    background-size: cover;
+}
+
+.bg5 {
+    background: url("../picture/phigros/phigros_s/5.png");
+    background-size: cover;
+}
+
+.bg_1 {
+    background: url("../picture/phigros/phigros_s2/1.png");
+    background-size: cover;
+}
+
+.bg2_1 {
+    background: url("../picture/phigros/phigros_s2/2.png");
+    background-size: cover;
+}
+
+.bg3_1 {
+    background: url("../picture/phigros/phigros_s2/3.png");
+    background-size: cover;
+}
+
+.bg4_1 {
+    background: url("../picture/phigros/phigros_s2/4.png");
+    background-size: cover;
+}
+
+.bg5_1 {
+    background: url("../picture/phigros/phigros_s2/5.png");
+    background-size: cover;
+}
+.by_pic1{
+    background: url("../picture/phigros/phigros_p/SpasmodicChan(max).png");
+    /* background-size: cover; */
+}
+
+
+.bd {
+    margin: 0px;
+}
+
+.detail1 {
+    margin: 5%;
+    color: rgba(45, 148, 245, 0.733);
+    font-size: 50px;
+
+
+}
+
+.page p {
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 30px;
+    margin: 10%;
+}
+
+
+.page2 p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 30px;
+
+}
+
+
+
+
+
+.detail1 li {
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 20px;
+
+}
+
+p {
+    text-indent: 0;
+}
+
+a {
+    text-decoration: none
+}
+
+
+.EZ {
+    color: #64ff7e;
+}
+
+.HD {
+    color: #049df5;
+}
+
+.IN {
+    color: #FF6347;
+}
+
+.φ {
+    color: #FFFF4D;
+}
+
+.V {
+    color: #8f05ff;
+}
+
+.S {
+    color: rgb(184, 4, 255);
+}
+
+.A {
+    color: #FFFF4D;
+}
+
+.B {
+    color: #64ff7e;
+}
+
+.C {
+    color: #FFFF4D;
+}
+
+.del {
+    color: rgba(105, 105, 105, 0.5);
+}
+
+.Perfect {
+    color: #FFFF4D;
+}
+
+.Good {
+    color: skyblue;
+}
+
+.Bad {
+    color: #5e2727;
+}
+
+.Tap {
+    color: #00BFFF;
+}
+
+.Hold {
+    color: skyblue;
+}
+
+.Flick {
+    color: #FF6347;
+}
+
+.Drag {
+    color: #FF6347;
+}
+
+.注 {
+    display: inline;
+    color: rgb(0, 195, 255);
+}
+
+.black {
+    background-color: #000000;
+    color: #000;
+}
+
+.heimu,
+.heimu a,
+a .heimu,
+.heimu a.new {
+    background-color: #252525;
+    color: #252525;
+    text-shadow: none;
+}
+
+.heimu:hover,
+.heimu:active,
+.heimu:hover .heimu,
+.heimu:active .heimu {
+    color: white !important;
+}
+
+.heimu:hover a,
+a:hover .heimu,
+.heimu:active a,
+a:active .heimu {
+    color: lightblue !important;
+}
+
+.heimu:hover .new,
+.heimu .new:hover,
+.new:hover .heimu,
+.heimu:active .new,
+.heimu .new:active,
+.new:active .heimu {
+    color: #BA0000 !important;
+}
+.ulpadding{
+    padding: 0px;
+}
+
+.border{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.219);
+    width: 40px;
+    height: 758px;
+    
+}
+.border i{
+    font-family: "方正粗圆简体";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    width: 20px;
+    position: absolute;
+    padding: 8px;
+    padding-top: 25%;
+}
